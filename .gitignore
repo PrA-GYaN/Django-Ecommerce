@@ -1,0 +1,47 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.db
+*.sqlite3
+*.sqlite3-journal
+*.log
+*.bak
+
+# Virtual environment
+venv/
+myenv/
+env/
+
+# Environment variables
+.env
+
+# PyCharm specific
+.idea/
+
+# VS Code specific
+.vscode/
+
+# Django migrations
+*/migrations/*
+
+# Coverage reports
+.coverage
+*.cover
+*.coverage.*
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Pytest
+.cache/
+
+# Test and development builds
+build/
+dist/
+*.egg-info/
